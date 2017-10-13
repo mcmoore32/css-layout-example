@@ -1,0 +1,126 @@
+/*Initialize*/
+
+html {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+/*Format Nav Bar.  Make its position fixed and put it on top.  Stretch it the entire viewport width.  */
+
+nav {
+  background-color: #e6e6e6;
+  width: 100vw;
+  height: 80px;
+  position: fixed;
+  z-index: 9999;
+}
+
+/*Format the initial "Greg's List" title in the nav bar.  Change it to inline-block so it lines up with the ul that has the list items.*/
+
+nav p {
+  display: inline-block;
+  margin: 25px 40px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/*Make li inline-block so they appear on one line*/
+
+li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+/*Move the menu to the right side of screen*/
+
+ul {
+  float: right;
+  margin: 25px 40px;
+  font-size: 1.5rem;
+}
+
+nav a:link {
+  text-decoration: none;
+  color: purple;
+}
+
+/*Setup the main section below the nav bar.*/
+
+main {
+  padding: 100px 0px 0px 100px;
+}
+
+/*Change label to block so it appears about input field*/
+
+label {
+  display: block;
+  padding-bottom: 5px;
+}
+
+/*Change form to inline-block so img appears next to it*/
+
+form {
+  width: 400px;
+  display: inline-block;
+  font-weight: 700;
+}
+
+input {
+  width: 600px;
+  height: 32px;
+  border-radius: 6px;
+  display: inline-block;
+  border: 1px solid lightgray;
+}
+
+img {
+  height: 32px;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  position: relative;
+  top: 11px;
+  left: 205px;
+}
+
+/*The bar that allows user to navigate output*/
+
+.advance-bar {
+  padding: 60px 0px 0px 0px;
+}
+
+.advance-bar span {
+  border: 1px solid lightgray;
+  padding: 10px 30px;
+}
+
+/*The next two allow the rounded corners on just the outside boxes*/
+
+.advance-bar span:first-child {
+  border-radius: 6px 0 0 6px;
+  border-right: none;
+}
+
+.advance-bar span:last-child {
+  border-radius: 0px 6px 6px 0px;
+  border-left: none;
+}
+
+/*The output of the jobs from the search*/
+
+.job-listing {
+  padding: 60px 0 0 0;
+  font-size: 1.15rem;
+  color: #9a9a9a;
+  font-weight: 700;
+}
+
+.job-listing a {
+  text-decoration: none;
+  color: blue;
+  margin-right: 10px;
+}
+
+.job-listing span {
+  margin-right: 10px;
+}
+

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Greg's List</title>
+    <meta charset="utf-8" name="description" content="Layout exercise on for Thinkful's front end web development course"/>
+
+    <!-- fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+
+    <!-- reset -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css"/>
+
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="style/main.css"/>
+
+  </head>
+
+  <body>
+
+    <!--Nav Bar at the top of the screen-->
+
+    <nav>
+      <p>Greg's List</p>
+      <ul>
+        <li>
+          <a href="">Post</a>
+        </li>
+        <li>
+          <a href="">Account</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!--Main Content-->
+
+    <main>
+
+      <!--Form for entering search terms-->
+
+      <form action="/action_page.php">
+        <label for="searchform">Search Jobs</label>
+        <input type="text" name="firstname" placeholder="Search software jobs" id="searchform">
+      </form>      
+      <img src="https://tf-curricula-prod.s3.amazonaws.com/curricula/5b3249003592fc371bac5c6254b50c9c/FEWD-001/v6/assets2/1.5.6_challenge_design_to_code/magnifying-glass.png" alt="">
+
+      <!--Bar that allows user to navigate through search output-->
+
+      <div class="advance-bar">
+        <span>< prev</prev></span><span>1 to 100 of 179</span><span>next ></span>
+      </div>
+      
+      <!--Job listing output from search-->
+
+      <div class="job-listing">
+        <p>
+          <span>June 22</span>
+          <a href="">Techical Project Manager</a>
+          <span>Midtown East</span>
+        </p>
+        <p>
+          <span>June 21</span>
+          <a href="">Frontend Developer</a>
+          <span>SoHo</span>
+        </p>
+        <p>
+          <span>June 21</span>
+          <a href="">Senior Python Developer</a>
+          <span>Flatiron</span>
+        </p>
+        <p>
+          <span>June 22</span>
+          <a href="">Techical Project Manager</a>
+          <span>Midtown East</span>
+        </p>
+        <p>
+          <span>June 21</span>
+          <a href="">Frontend Developer</a>
+          <span>SoHo</span>
+        </p>
+        <p>
+          <span>June 21</span>
+          <a href="">Senior Python Developer</a>
+          <span>Flatiron</span>
+        </p>
+      </div>
+      
+    </main>
+
+  </body>
+</html>
